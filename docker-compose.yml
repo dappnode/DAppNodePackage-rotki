@@ -20,8 +20,6 @@ services:
     volumes:
       - rotki_data:/data
       - rotki_logs:/logs
-    ports:
-      - "8084:80"
     networks:
       dncore_network:
         aliases:
