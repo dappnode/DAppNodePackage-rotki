@@ -1,0 +1,33 @@
+{
+  "name": "rotki.public.dappnode.eth",
+  "version": "0.1.0",
+  "upstreamVersion": "v1.18.0",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "upstreamRepo": "https://github.com/rotki/rotki",
+  "description": "Rotki allows to track balances of blockchain accounts.",
+  "type": "service",
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "categories": ["Accounts", "Privacy", "DeFi"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappnode/DAppNodePackage-rotki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-rotki/issues"
+  },
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.39"
+  },
+  "backup": [
+    {
+      "name": "rotki_data",
+      "path": "/data"
+    }
+  ],
+  "links": {
+    "ui": "http://rotki.dappnode/",
+    "homepage": "https://rotki.com/",
+    "readme": "https://github.com/dappnode/DAppNodePackage-rotki"
+  },
+  "license": "GLP-3.0"
+}
