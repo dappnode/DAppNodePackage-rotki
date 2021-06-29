@@ -4,11 +4,16 @@
   "upstreamVersion": "v1.18.0",
   "upstreamRepo": "rotki/rotki",
   "upstreamArg": "UPSTREAM_VERSION",
-  "description": "Rotki allows to track balances of blockchain accounts.",
+  "shortDescription": "Accounting and analytics tool that protects your privacy",
+  "description": "The portfolio manager that protects your privacy\n\nRotki is an open source portfolio tracker, accounting and analytics tool that protects your privacy.\n\nRotki offers tracking of all your crypto assets no matter where they are. Be it on a blockchain, a DeFi protocol or on one of the supported exchanges.\n\nMore information about the source project can be found at [their official website](https://rotki.com/)",
   "type": "service",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
-  "contributors": ["pablo <pablo@dappnode.io> (https://github.com/pablomendezroyo)"],
-  "categories": ["Economic incentive", "ETH2.0"],
+  "contributors": [
+    "pablo <pablo@dappnode.io> (https://github.com/pablomendezroyo)"
+  ],
+  "categories": [
+    "Blockchain"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dappnode/DAppNodePackage-rotki.git"
