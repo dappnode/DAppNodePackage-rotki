@@ -1,24 +1,15 @@
 version: "3.5"
-networks:
-  dncore_network:
-    name: dncore_network
-    external: true
-volumes:
-  rotki_data: {}
-  rotki_logs: {}
 services:
   rotki.dnp.dappnode.eth:
-    container_name: DAppNodePackage-rotki.dnp.dappnode.eth
+    image: "rotki.dnp.dappnode.eth:0.1.0"
     build:
       context: build
       args:
         UPSTREAM_VERSION: v1.18.0
-    image: "rotki.dnp.dappnode.eth:0.1.0"
     volumes:
       - "rotki_data:/data"
       - "rotki_logs:/logs"
-    networks:
-      dncore_network:
-        aliases:
-          - rotki.dappnode
     restart: always
+volumes:
+  rotki_data: {}
+  rotki_logs: {}
