@@ -1,7 +1,7 @@
 {
   "name": "rotki.dnp.dappnode.eth",
   "version": "0.1.0",
-  "upstreamVersion": "v1.18.1",
+  "upstreamVersion": "v1.19.0",
   "upstreamRepo": "rotki/rotki",
   "upstreamArg": "UPSTREAM_VERSION",
   "shortDescription": "Accounting and analytics tool that protects your privacy",
