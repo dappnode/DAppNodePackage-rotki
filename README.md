@@ -22,13 +22,13 @@ Do not miss it!
 
 ### Requirements
 
-Rquirements to run DAppNode package for Rotki
+Requirements to run DAppNode package for Rotki
 
 <!--Requirements to run the dappnode package in a list: -->
 
 There are no requirements to run Rotki on your DAppNode. Anyway it is recommended to run your own Ethereum Node and introduce it at: **Account > settings > general > Local Nodes**. This feature makes the Rotki app run faster and you will keep your privacity!
 
-### Manteinance
+### Maintenance
 
 <!--Table with champion/s mantainers, versions and update status -->
 <!--UPDATED: :x: OR :heavy_check_mark: -->
