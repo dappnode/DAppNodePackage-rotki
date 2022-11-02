@@ -9,6 +9,8 @@ services:
     volumes:
       - "rotki_data:/data"
       - "rotki_logs:/logs"
+    environment:
+      LOGLEVEL: info
     restart: always
 volumes:
   rotki_data: {}
