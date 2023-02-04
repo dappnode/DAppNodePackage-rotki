@@ -9,6 +9,8 @@ services:
     volumes:
       - "rotki_data:/data"
       - "rotki_logs:/logs"
+    environment:
+      ROTKI_ACCEPT_DOCKER_RISK: 1
     restart: always
 volumes:
   rotki_data: {}
