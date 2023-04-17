@@ -3,7 +3,6 @@ services:
   rotki.dnp.dappnode.eth:
     image: "rotki.dnp.dappnode.eth:0.1.0"
     build:
-      context: build
       args:
         UPSTREAM_VERSION: v1.27.1
     volumes:
