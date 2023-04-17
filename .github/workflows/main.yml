@@ -18,6 +18,15 @@ jobs:
       - uses: actions/checkout@v2
       - run: npx @dappnode/dappnodesdk build --skip_save
 
+  e2e-test:
+    runs-on: packages
+    needs: build-test
+    if: github.event_name != 'push'
+    name: End to end test
+    steps:
+      - uses: actions/checkout@v2
+      - run: npx @dappnode/dappnodesdk github-action test-end-to-end --errorLogsTimeout 30 --healthCheckUrl http://rotki.dappnode:80
+
   release:
     name: Release
     runs-on: ubuntu-latest
