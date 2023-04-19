@@ -22,7 +22,7 @@ jobs:
     runs-on: packages
     needs: build-test
     if: github.event_name != 'push'
-    name: End to end test
+    name: End to end tests
     steps:
       - uses: actions/checkout@v2
       - run: npx @dappnode/dappnodesdk github-action test-end-to-end --errorLogsTimeout 30 --healthCheckUrl http://rotki.dappnode:80
