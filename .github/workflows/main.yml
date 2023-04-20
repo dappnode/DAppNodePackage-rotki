@@ -25,7 +25,7 @@ jobs:
     name: End to end tests
     steps:
       - uses: actions/checkout@v2
-      - run: npx @dappnode/dappnodesdk github-action test-end-to-end --errorLogsTimeout 30 --healthCheckUrl http://rotki.dappnode:80
+      - run: npx @dappnode/dappnodesdk github-action test-end-to-end --errorLogsTimeout 30 --healthCheckUrl http://rotki.dappnode
 
   release:
     name: Release
