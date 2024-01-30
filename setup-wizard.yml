@@ -1,0 +1,17 @@
+version: "2"
+fields:
+  - id: LOGLEVEL
+    target:
+      type: environment
+      name: LOGLEVEL
+    title: Log Level
+    description: >-
+      Defines logger's log level
+    enum:
+      - critical
+      - error
+      - warning
+      - info
+      - debug
+      - trace
+    required: true
