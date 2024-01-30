@@ -11,7 +11,8 @@ services:
       - "rotki_logs:/logs"
     environment:
       ROTKI_ACCEPT_DOCKER_RISK: 1
-    restart: always
+      LOGLEVEL: info
+    restart: unless-stopped
 volumes:
   rotki_data: {}
   rotki_logs: {}
