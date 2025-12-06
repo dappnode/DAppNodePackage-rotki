@@ -1,7 +1,7 @@
 {
   "name": "rotki.dnp.dappnode.eth",
-  "version": "0.1.50",
-  "upstreamVersion": "v1.41.1",
+  "version": "0.1.51",
+  "upstreamVersion": "v1.41.2",
   "architectures": ["linux/amd64", "linux/arm64"],
   "upstreamRepo": "rotki/rotki",
   "upstreamArg": "UPSTREAM_VERSION",
