@@ -10,7 +10,7 @@ services:
       - rotki_data:/data
       - rotki_logs:/logs
     environment:
-      ROTKI_ACCEPT_DOCKER_RISK: 1
+      ROTKI_ACCEPT_UNAUTHENTICATED_API: 1
       LOGLEVEL: info
     restart: unless-stopped
 volumes:
