@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        UPSTREAM_VERSION: v1.44.0
+        UPSTREAM_VERSION: v1.44.1
     volumes:
       - rotki_data:/data
       - rotki_logs:/logs
