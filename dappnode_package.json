@@ -33,8 +33,12 @@
   },
   "shortDescription": "Accounting and analytics tool that protects your privacy",
   "type": "service",
-  "upstreamArg": "UPSTREAM_VERSION",
-  "upstreamRepo": "rotki/rotki",
-  "upstreamVersion": "v1.44.2",
+  "upstream": [
+    {
+      "repo": "rotki/rotki",
+      "version": "v1.44.2",
+      "arg": "UPSTREAM_VERSION"
+    }
+  ],
   "version": "0.1.58"
 }
