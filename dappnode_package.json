@@ -35,10 +35,10 @@
   "type": "service",
   "upstream": [
     {
+      "arg": "UPSTREAM_VERSION",
       "repo": "rotki/rotki",
-      "version": "v1.44.2",
-      "arg": "UPSTREAM_VERSION"
+      "version": "v1.44.3"
     }
   ],
-  "version": "0.1.58"
+  "version": "0.1.59"
 }
